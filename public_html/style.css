@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 May, 2021, 1:45:46 AM
+    Author     : AKASH
+*/
+
+#ledt{
+    float: right;
+}
+/* .bar {
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    list-style: noon;
+    height: 36px;
+    background-color: #1C2833;
+    
+     } */
+.active  {
+    display: block;
+    color: aqua;
+    /* float: right;  */
+}
+#nav-link{
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-img{
+    border:solid whitesmoke;
+      margin-left: 12px;
+      border-radius: 50%;
+}
+
+#contact{
+    size: 25px;
+}
+
+
+#background{
+    background:url(./img/akash.jpg);
+    height: 650px;
+    width: 2000px;
+    padding-top: 90px;
+    color: #EBEEBE;
+    max-width: 1120px;
+       
+   
+}
+#name{
+    background-color: rgba(0,0,0,0.7);
+    max-width: 400px;
+    padding: 20px 30px;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #1C2833;
+    overflow-y: auto;
+}
+
+.text-length{
+    color: #D1FAE2;
+}
+
+.lg{
+    margin-top: 35px;
+    width: 40px;
+    margin-left: 25px;
+    im
+}
+
+.intro{
+    margin-top: 10%;
+    
+}
+
+.ak{
+    text-height: 25;
+}
+
+.nav-menu{
+    display-inline-flex: 
+}
+#text{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+progress{
+    width: 60%;
+    }
+.progress{
+    width: 70%;
+    /* margin-left: 400px; */
+}
+
+#deta{
+    overflow: auto;
+}
+
+table{
+    border: 1px solid;
+    width:100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+    border: 1px solid #a4a4a4;
+    height: 30px;
+}
+th{
+    text-align: left;
+    background-color: #ececec;
+}
+h2{
+    font-family: 'Sansita Swashed', cursive;
+}
+.subtop{
+    font-family: 'Newsreader', serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
